@@ -42,7 +42,13 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
-
+         
+        <dependency>
+             <groupId>com.netflix.hystrix</groupId>
+             <artifactId>hystrix-core</artifactId>
+             <version>1.5.10</version>
+         </dependency>
+             
     </dependencies>
 
     <build>
